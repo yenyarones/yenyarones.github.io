@@ -1,0 +1,85 @@
+dbody {
+    margin: 0;
+    padding: o;
+    /*removes default margin and padding applied by other browsers
+    background-color: rgb(97, 245, 137);*/
+}
+<header>
+<div id+greeting"></div>
+
+header {
+    display: flex;
+    /* tell header it is a flex container*/
+    justify-content: space-evenly;
+    /*evenly spaces child elements inside the container*/
+    align-items: center;
+    /*vertically center the child elements inside the container*/
+    background: color #242bad;
+    color: rgb(19, 37, 20);
+    /*font color*/
+    ;
+    padding: 20px
+        /* padding INSIDE the header to create space around the content*/
+    ;
+    width: 100%;
+    /*make sure the header spans the entire width of the screen*/
+    margin: 0 auto;
+    /*centers header horizontally on the page*/
+    box-shadow: 0px 4px 6px;
+    /*adds a slight shadow bellow the header to give it depth*/
+    flex-wrap: ;
+    /*make sure that the child elements wrap onto a new line if there isn't enough space*/
+
+
+}
+header img {
+    border: radius 150px;/*round the corners of the image or element, you cab use % or PX*/
+    box-shadow: 3px 3px 18px gray;/*tiene 3px juegas con los angulos de la sombra*/
+    max-width: 100%;/*maintains image's aspect ration while resizing*/
+    object-fit: contain;/*crops the image without distorting*/
+    }
+
+/*.centerheader{
+  text-align:center;
+  color:rgba(250,247,0.365);
+}*/
+
+.intro {
+    max-width: 500px; /*limits the width for better readability*/
+    text-align:left;/*aligns text to the left,right,center*/
+}
+/*styling for entire main elements*/
+main {
+    display: flex;/*tells main it is a flex container*/
+    flex-direction:column;/*stacks child elements (sections) vertically in a colomun*/
+    align-items: center;/*alight child elements horizontally in the center*/
+    padding: 30px;/*adds padding AROUND he main content for better spacing*/
+}
+/*styling for the section elements*/
+section {
+    background-color: aqua;/*background color of each section*/
+    border-radius: 8px;/*adds rounded corners to sextion*/
+    box-shadow: 0px 4px 8px rgba(0, 0,0,0.3); /*box shadow making it "float"*/
+    padding: 20px; /*adds space INSIDE each section "card*/
+    margin-bottom:  20px; /*adds space at the BOTTOM of each "card*/
+    width: 100% ;/*makes section take up the full width of the MAIN containers*/
+    max-width: 800px;/*limits the width to a MAX of 800 */
+}
+li{
+    margin-bottom: 15px;/*add space between EACH list item*/
+}
+footer {
+    background-color: bisque;
+    height: 100px;
+    font-size: 40px;
+    text-decoration: none
+}
+
+.centerfooter {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+  
